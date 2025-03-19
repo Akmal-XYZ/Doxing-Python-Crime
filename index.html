@@ -55,18 +55,21 @@
             width: 300px;
         }
     </style>
+    
+    
+    
+    
 </head>
 <body>
 
 <h1>Python Crime | Doxing Helper</h1>
-
 
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Makanan</title>
+ 
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -81,20 +84,9 @@
         h1 {
             margin-bottom: 20px;
         }
-        button {
-            background-color: #00ffcc;
-            color: #0d0d0d;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #00cc99;
-        }
         #result {
             margin-top: 20px;
-            display: none;
+            display: block; /* Tampilkan secara default */
             background-color: #1a1a1a;
             padding: 20px;
             border-radius: 10px;
@@ -102,50 +94,24 @@
             width: 300px;
             transition: max-height 0.5s ease, opacity 0.5s ease;
             overflow: hidden;
-            opacity: 0; /* Awalnya tidak terlihat */
-        }
-        #result.show {
-            display: block; /* Tampilkan saat class .show ditambahkan */
-            opacity: 1; /* Tampilkan dengan transisi */
+            opacity: 1; /* Tampilkan langsung */
         }
     </style>
 </head>
 <body>
 
 
-<button onclick="toggleMenu()">Metode Doxing</button>
-
 <div id="result">
     <h3>Khusus Hacker Pemula :</h3>
-    <p>Kamu dapat menggunakan sosial media seperti Ig,Fb,Wa,Tiktok untuk mencari informasi dari target seperti hobi,foto,dll lalu kamu dapat memasukkan hasil pencarian mu di sini, tidak semuanya harus terisi, kamu hanya perlu mengisi apa yang kamu dapatkan dari informasi target setelah kamu mengisi beberapa kolom di bawah ini kamu dapat mengeklik submit pada bagian halaman paling bawah dan kamu akan mendapatkan hasil doxing kamu</p>
+    <p>Kamu dapat menggunakan sosial media seperti Ig, Fb, Wa, Tiktok untuk mencari informasi dari target seperti hobi, foto, dll. Lalu kamu dapat memasukkan hasil pencarianmu di sini, tidak semuanya harus terisi, kamu hanya perlu mengisi apa yang kamu dapatkan dari informasi target. Setelah kamu mengisi beberapa kolom di bawah ini, kamu dapat mengeklik submit pada bagian halaman paling bawah dan kamu akan mendapatkan hasil doxing kamu.</p>
     <h3>Khusus Hacker Sepuh :</h3>
-    <p>Kamu Dapat menggunakan tools tc di terminal termux maupun linux. bagi pengguna android diwajibkan untuk menginstal termux mod, bukan termux playstore. Untuk cara instalasi nya adalah</p>
-ketik npm install truecallerjs dan enter lalu tunggu hingga selesai kemudian ketik npm install -g truecallerjs dan enter selanjutnya ketik truecallerjs login dan masukkan nomor hp kamu dan masukkan kode verifikasi yang masuk ke sms. kemudian silahkan tracking nomor target menggunakan cmd truecallerjs -s [number] .contohnya truecallerjs -s +6288214764360 jika informasi target telah muncul silahkan kamu isi beberapa kolom di bawah ini (tidak semua). untuk informasi lebih lanjut kamu dapat menelusuri menggunakan nama lengkapnya di sosial media seperti ig,tiktok,fb 
+    <p>Kamu dapat menggunakan tools tc di terminal termux maupun linux. Bagi pengguna Android diwajibkan untuk menginstal termux mod, bukan termux playstore. Untuk cara instalasinya adalah:</p>
+    <p>Ketik <code>npm install truecallerjs</code> dan enter, lalu tunggu hingga selesai. Kemudian ketik <code>npm install -g truecallerjs</code> dan enter, selanjutnya ketik <code>truecallerjs login</code> dan masukkan nomor HP kamu serta kode verifikasi yang masuk ke SMS. Kemudian silakan tracking nomor target menggunakan CMD <code>truecallerjs -s [number]</code>. Contohnya <code>truecallerjs -s +6288214764360</code>. Jika informasi target telah muncul, silakan kamu isi beberapa kolom di bawah ini (tidak semua). Untuk informasi lebih lanjut, kamu dapat menelusuri menggunakan nama lengkapnya di sosial media seperti IG, Tiktok, FB.</p>
 </div>
-
-
-
-<script>
-    function toggleMenu() {
-        const result = document.getElementById('result');
-        if (result.style.display === 'none' || result.style.display === '') {
-            result.style.display = 'block';
-            setTimeout(() => {
-                result.classList.add('show'); // Tambahkan class untuk efek transisi
-            }, 10); // Delay sedikit untuk animasi
-        } else {
-            result.classList.remove('show'); // Hapus class untuk efek transisi
-            setTimeout(() => {
-                result.style.display = 'none';
-            }, 500); // Waktu yang sama dengan durasi animasi
-        }
-    }
-</script>
 
 </body>
 </html>
-
-
+<H1>TRACKING DATA</H1>
 
 
 </body>
@@ -209,7 +175,7 @@ ketik npm install truecallerjs dan enter lalu tunggu hingga selesai kemudian ket
 <div id="result">
     <p id="evaluation"></p>
     <div id="answers"></div>
-    <button onclick="copyResults()">Copy Hasil</button>
+    <button onclick="copyResults()">copy hasil doxing</button>
 </div>
 
 <script>
@@ -266,3 +232,5 @@ ${answers}`;
 
 </body>
 </html>
+
+
